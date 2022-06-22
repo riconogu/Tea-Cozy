@@ -1,0 +1,122 @@
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 69px;
+    border-bottom: solid seashell 1px;
+    background-color: black;
+    position: fixed;
+}
+
+.container img{
+    height: 50px;
+    margin: 0px;
+    padding: 0px 10px;
+}
+
+.container li{
+    list-style: none;
+    float: right;
+    text-decoration: underline;
+    padding: 0 10px;
+    color: seashell;
+}
+
+.jumbotron{
+    margin-top: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image: url(Stock/img-mission-background.jpg);
+}
+
+.mission{
+    width: 100%;
+    background-color: black;
+}
+
+.featured{
+    margin-top: 70px;
+    width: 1000px;
+    display: inline-flex;
+}
+
+.featured img{
+    height: 200px;
+    width: 300px;
+}
+
+.pictures{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+}
+
+.col{
+    display: inline-flex;
+
+}
+
+#legend{
+    display: block;
+}
+
+.locations{
+    height: 500px;
+    width: 1200px;
+    display: inline-flex;
+    justify-content: center;
+    background-image: url(Stock/img-locations-background.jpg);
+}
+
+.locations img{
+    height: 500px;
+    width: 1200px;
+}
+
+.adress{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.adress #legend{
+    margin-top: 50px;
+}
+.box{
+    opacity: 1;
+    height: 200px;
+    width: 300px;
+    background-color: black;
+    margin-bottom: 190px;
+    margin-right: 40px;
+    
+}
+
+.box li{
+    list-style: none;
+}
+
+footer .col{
+    display: block;
+}
+
+.last{
+    float: left;
+    padding: 20px;
+}
+
